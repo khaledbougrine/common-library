@@ -1,0 +1,30 @@
+[
+  {
+    "id": 123,
+    "parameters": "OUT",
+    "position": 123,
+    "name": "9999",
+    "isActive": true
+  },
+  {
+    "id": 123,
+    "parameters": "OUT",
+    "position": 123,
+    "name": "9999",
+    "isActive": true
+  },
+  {
+    "id": 123,
+    "parameters": "OUT",
+    "position": 123,
+    "name": "9999",
+    "isActive": true
+  },
+  {
+    "id": 24,
+    "parameters": "OUT",
+    "position": 123,
+    "name": "9999",
+    "isActive": true
+  }
+]

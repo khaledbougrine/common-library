@@ -1,0 +1,18 @@
+[
+  {
+    "name": "22",
+    "moduleId": 9999,
+    "parameters": null,
+    "position": 1,
+    "transformationRule": {
+      "id": 3,
+      "function": "RAW_DATA",
+      "name": "Raw data",
+      "paramNumberMax": 0,
+      "paramNumberMin": 0,
+      "isInternal": false
+    },
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "mappingId": 2
+  }
+]

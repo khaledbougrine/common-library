@@ -1,0 +1,21 @@
+{
+  "schedulesIds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "startDate" : "2022-01-01T00:00:00Z",
+  "endDate" : "2099-12-31T23:59:59Z",
+  "frequency": "WEEKLY",
+  "isMaintenance": false,
+  "selectDays": [
+    "MONDAY",
+    "TUESDAY",
+    "WEDNESDAY",
+    "THURSDAY"
+  ],
+  "executionTime": "08:00:00",
+  "clientId": "33333330-3336-3331-2d33-3633312d3336",
+  "flowId": 1
+}

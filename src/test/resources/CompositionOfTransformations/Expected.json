@@ -1,0 +1,111 @@
+{
+  "display_name": "Calimero",
+  "identity": {
+    "civility": "M.",
+    "username": "jlesaulnier",
+    "usr_active": "usr_active_yes",
+    "usr_first_name": "Jérôme",
+    "usr_last_name": "LESAULNIER"
+  },
+  "organisational_structure": {
+    "location": "location_to_be_updated_by_client"
+  },
+  "personal_information": {
+    "nationality": "nationality_fra",
+    "usr_birth_area_state": "Manche(50)",
+    "usr_birth_city": "Saint-Lô",
+    "usr_birth_country": "usr_birth_country_fra",
+    "usr_birth_unmarried_surname": "LESAULNIER",
+    "usr_childs": [
+      {
+        "usr_active": "usr_active_yes",
+        "usr_child_first_name": "Mégane",
+        "usr_child_last_name": "LESAULNIER",
+        "usr_child_social_security_number": "296055050213780"
+      },
+      {
+        "usr_active": "usr_active_no",
+        "usr_child_first_name": "Clio",
+        "usr_child_last_name": "LESAULNIER",
+        "usr_child_social_security_number": "297055050213781"
+      },
+      {
+        "usr_active": "usr_active_yes",
+        "usr_child_first_name": "Robin",
+        "usr_child_last_name": "LESAULNIER",
+        "usr_child_social_security_number": "198055050213781"
+      }
+    ],
+    "usr_results": [
+      15,
+      18,
+      12
+    ],
+    "usr_social_security_number": "177055050213780"
+  },
+  "professional_contact": {
+    "professional_email": "jlesaulnier@peoplespheres.com",
+    "professional_mobile": "06 73 93 36 59"
+  },
+  "user_relation": {
+    "professional_email": "fgache@peoplespheres.com"
+  },
+  "usr_a_supprimer": "usr_a_supprimer_no",
+  "usr_employment_contract": {
+    "usr_employment_contract_annual_days": 217,
+    "usr_employment_contract_contract_type": "usr_employment_contract_contract_type_contrat_a_duree_indeterminee",
+    "usr_employment_contract_effective_date": "11/04/2022",
+    "usr_employment_contract_full_time_equivalent": 1,
+    "usr_employment_contract_union_agreement": "IDCC 1486",
+    "usr_employment_contract_working_hours": "usr_employment_contract_working_hours_hourly",
+    "usr_taxation_rate": 21.5
+  },
+  "~wk": {
+    "co": {
+      "display_name": "${identity.usr_last_name}+ +${identity.usr_first_name}+(EXT)"
+    },
+    "fo": {
+      "usr_employment_contract.usr_employment_contract_effective_date": "dd/MM/YY"
+    },
+    "ma": {
+      "identity.usr_active": "1",
+      "organisational_structure.location": "AD_0001",
+      "personal_information.nationality": "FRA",
+      "personal_information.usr_birth_country": "FRA",
+      "personal_information.usr_childs[0].usr_active": "1",
+      "personal_information.usr_childs[1].usr_active": "0",
+      "personal_information.usr_childs[2].usr_active": "1",
+      "usr_a_supprimer": "Non",
+      "usr_employment_contract.usr_employment_contract_contract_type": "DI",
+      "usr_employment_contract.usr_employment_contract_working_hours": "TP"
+    },
+    "rd": {
+      "display_name": "DISPLAY_NAME",
+      "identity.civility": "CIVILITY",
+      "identity.username": "USERNAME",
+      "identity.usr_active": "ACTIF",
+      "identity.usr_first_name": "PRENOM",
+      "identity.usr_last_name": "NOMUSE",
+      "organisational_structure.location": "LOCATION",
+      "personal_information.nationality": "NATION",
+      "personal_information.usr_birth_area_state": "DEPNAI",
+      "personal_information.usr_birth_country": "PAYNAI",
+      "personal_information.usr_childs[x].usr_active": "ACTIF",
+      "personal_information.usr_childs[x].usr_child_first_name": "CHILD_FIRSTNAME",
+      "personal_information.usr_childs[x].usr_child_last_name": "CHILD_LASTNAME",
+      "personal_information.usr_childs[x].usr_child_social_security_number": "SSNUME",
+      "personal_information.usr_social_security_number": "SSNUME",
+      "usr_a_supprimer": "A_SUPPRIMER",
+      "usr_employment_contract.usr_employment_contract_contract_type": "TYPCON",
+      "usr_employment_contract.usr_employment_contract_effective_date": "DEBCON",
+      "usr_employment_contract.usr_employment_contract_working_hours": "REGHOR",
+      "usr_employment_contract.usr_taxation_rate": "TAX_RATE"
+    },
+    "su": {
+      "personal_information.nationality": "12#",
+      "personal_information.usr_birth_area_state": "#6",
+      "personal_information.usr_childs[x].usr_child_social_security_number": "2#14",
+      "personal_information.usr_social_security_number": "2#14"
+    }
+  }
+}

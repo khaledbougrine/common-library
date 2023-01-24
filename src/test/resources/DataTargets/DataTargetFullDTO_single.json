@@ -1,0 +1,15 @@
+{
+  "alias": "num_dossier",
+  "isArray": false,
+  "categoryAlias": null,
+  "defaultValue": null,
+  "name": "Numéro dossier",
+  "parentAlias": null,
+  "parentFieldName": null,
+  "relatedPso": null,
+  "isRequired": true,
+  "fieldType": "NUMBER",
+  "mappingId": 2,
+  "clientId": "33333330-3336-3331-2d33-3633312d3336",
+  "technicalId": "bbc3dde7-bc36-4307-ae55-920b8abe72a4"
+}

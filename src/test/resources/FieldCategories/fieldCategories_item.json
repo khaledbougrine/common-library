@@ -1,0 +1,10 @@
+{
+  "id": 17,
+  "alias": "training",
+  "is_active": true,
+  "name": "training",
+  "created_at": "2022-09-18 16:57:06",
+  "updated_at": null,
+  "deleted_at": null,
+  "version": 1
+}

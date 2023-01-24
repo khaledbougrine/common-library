@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Payroll SILAE",
+    "moduleId": 9999,
+    "fieldType": "INOUT",
+    "provider_id": 4,
+    "flows": [
+
+    ]
+  },
+  {
+    "id": 3,
+    "name": "BDES Editions Legislatives",
+    "moduleId": 5678,
+    "fieldType": "INOUT",
+    "provider_id": 4,
+    "flows": [
+
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Time E2Times",
+    "moduleId": 2468,
+    "fieldType": "IN",
+    "provider_id": 4,
+    "flows": [
+
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Training Cornerstone",
+    "moduleId": 9753,
+    "fieldType": "OUT",
+    "provider_id": 4,
+    "flows": [
+
+    ]
+  }
+]

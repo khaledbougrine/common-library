@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "alias": "usr_test",
+  "name": "test",
+  "pso_type_id": 1,
+  "category_id": 19,
+  "created_at": "2022-09-19 23:24:28",
+  "updated_at": "2022-09-19 23:24:34",
+  "deleted_at": null,
+  "version": 1,
+  "is_active": true
+}

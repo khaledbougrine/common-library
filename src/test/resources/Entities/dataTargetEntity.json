@@ -1,0 +1,47 @@
+[
+  {
+    "id": "123",
+    "categoryAlias": null,
+    "parentFieldName": null,
+    "parentAlias": null,
+    "name": "Numéro dossier",
+    "alias": "num_dossier",
+    "isArray": false,
+    "position": 1,
+    "isRequired": true,
+    "fieldType": "NUMBER",
+    "defaultValue": null,
+    "isActive": false,
+    "technicalId": "bbc3dde7-bc36-4307-ae55-920b8abe72a4"
+  },
+  {
+    "id": "123",
+    "categoryAlias": null,
+    "parentFieldName": null,
+    "parentAlias": null,
+    "name": "Numéro dossier",
+    "alias": "num_dossier",
+    "isArray": false,
+    "position": 1,
+    "isRequired": true,
+    "fieldType": "NUMBER",
+    "defaultValue": null,
+    "isActive": false,
+    "technicalId": "bbc3dde7-bc36-4307-ae55-920b8abe72a4"
+  },
+  {
+    "id": "123",
+    "categoryAlias": null,
+    "parentFieldName": null,
+    "parentAlias": null,
+    "name": "Numéro dossier",
+    "alias": "num_dossier",
+    "isArray": false,
+    "position": 1,
+    "isRequired": true,
+    "fieldType": "NUMBER",
+    "defaultValue": null,
+    "isActive": false,
+    "technicalId": "bbc3dde7-bc36-4307-ae55-920b8abe72a4"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "psoTypeAlias": "usr",
+      "groupName": "Groupe Administrateurs",
+      "groupAlias": "domain_admin",
+      "members": [
+        {
+          "member_user_id": "d4c414a6-4d63-48f4-9264-5b2ac7d4d3e2",
+          "member_username": "mfernandez@peoplespheres.com"
+        }
+      ]
+    },
+    {
+      "psoTypeAlias": "usr",
+      "groupName": "Groupe de formation",
+      "groupAlias": "groupe_de_formation",
+      "members": [
+        {
+          "member_user_id": "c1b1a44e-0f25-4189-bd56-331bc0b50d10",
+          "member_username": "fgache@orchestrate.com"
+        },
+        {
+          "member_user_id": "c1b1a44e-0f25-4189-bd56-331bc0b50d10",
+          "member_username": "test"
+        }
+      ]
+    },
+    {
+      "psoTypeAlias": "usr",
+      "groupName": "Utilisateur Groupe Mentor",
+      "groupAlias": "group_mentor",
+      "members": [
+      ]
+    },
+    {
+      "psoTypeAlias": "usr",
+      "groupName": "Utilisateur Groupe Responsable",
+      "groupAlias": "group_manager",
+      "members": [
+        {
+          "member_user_id": "c1b1a44e-0f25-4189-bd56-331bc0b50d10",
+          "member_username": "fgache@orchestrate.com"
+        },
+        {
+          "member_user_id": "c1b1a44e-0f25-4189-bd56-331bc0b50d10",
+          "member_username": "test"
+        },
+        {
+          "member_user_id": "f8eeb40f-f711-4fc3-b425-d800396812e9",
+          "member_username": "l.martin.262@orchestrate.com"
+        }
+      ]
+    }
+  ]
+}

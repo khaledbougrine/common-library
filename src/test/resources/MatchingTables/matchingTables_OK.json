@@ -1,0 +1,21 @@
+{
+  "mappingId": 1,
+  "data": [
+    {
+      "filename": "usr_civility.csv",
+      "referenceAlias": "usr_civility",
+      "matchingValues": [
+        {
+          "field_option_alias": "usr_civility_mr",
+          "field_value": "Monsieur",
+          "partner_value": "Mr"
+        },
+        {
+          "field_option_alias": "usr_civility_mrs",
+          "field_value": "Madame",
+          "partner_value": "Mrs"
+        }
+      ]
+    }
+  ]
+}

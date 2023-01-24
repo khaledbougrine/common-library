@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "dbname": "dbname",
+    "env": "env1",
+    "groupId": "Client Asys",
+    "hostname": "hostNameTest"
+  },
+  {
+    "id": "2",
+    "dbname": "dbname",
+    "env": "env1",
+    "groupId": "Client Asys",
+    "hostname": "hostNameTest"
+  },
+  {
+    "id": "3",
+    "dbname": "dbname",
+    "env": "env1",
+    "groupId": "Client Asys",
+    "hostname": "hostNameTest"
+  }
+]

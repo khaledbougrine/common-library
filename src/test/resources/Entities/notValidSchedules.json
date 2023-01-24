@@ -1,0 +1,15 @@
+{
+  "startDate" : "2022-01-01T00:00:00Z",
+  "endDate" : "2023-12-31T23:59:59Z",
+  "frequency": "MONTHLY",
+  "isMaintenance": false,
+  "selectDays": [
+    "12/02/2023",
+    "12/03/2023",
+    "12/04/2023",
+    "MONDAY"
+  ],
+  "executionTime": "08:00:00",
+  "clientId": "33333330-3336-3331-2d33-3633312d3336",
+  "flowId": 1
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 8,
+    "name": "Onboarding Cornerstone",
+    "moduleId": 9753,
+    "fieldType": "OUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:53",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 1,
+    "name": "Payroll SILAE",
+    "moduleId": 9999,
+    "fieldType": "INOUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:55",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "name": "BDES Editions Legislatives",
+    "moduleId": 5678,
+    "fieldType": "INOUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:59",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "name": "Time E2Times",
+    "moduleId": 2468,
+    "fieldType": "IN",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:12:02",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "name": "Planning E2Times",
+    "moduleId": 2468,
+    "fieldType": "IN",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:49",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "name": "Training Cornerstone",
+    "moduleId": 9753,
+    "fieldType": "OUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:12:01",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "name": "Talent Cornerstone",
+    "moduleId": 9753,
+    "fieldType": "IN",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:58",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "name": "Recruiting Cornerstone",
+    "moduleId": 9753,
+    "fieldType": "INOUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:11:56",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "name": "Onboarding Cornerstone0",
+    "moduleId": 9753,
+    "fieldType": "OUT",
+    "clientId": 4,
+    "created_at": "2022-09-18 14:12:03",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1,
+    "is_active": true
+  }
+]

@@ -1,0 +1,97 @@
+# Default/common profile inherited from other profiles
+# Application
+---
+spring:
+  application:
+    name: pso-io-common-library
+server.port: 9096
+---
+# Application datasource configuration (In-memory database using Spring Data JPA with JCache)
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    jdbc-url: ${peoplespheres.datasource.mapping.url}
+    username: ${peoplespheres.datasource.mapping.user}
+    password: ${peoplespheres.datasource.mapping.password}
+    hikari:
+      jdbc-url: ${peoplespheres.datasource.mapping.url}
+      username: ${peoplespheres.datasource.mapping.user}
+      password: ${peoplespheres.datasource.mapping.password}
+      auto-commit: false
+      maximum-pool-size: 10
+  liquibase:
+    enabled: false
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        default_schema: public
+        ddl-auto: none
+        use-new-id-generator-mappings: true
+        session.events.log.LOG_QUERIES_SLOWER_THAN_MS: 100
+        javax:
+          persistence:
+            schema-generation:
+              database:
+                action: none
+      javax:
+        persistence:
+          sharedCache:
+            mode: ALL
+      cache:
+        use_second_level_cache: false
+        use_query_cache: false
+        missing_cache_strategy: create
+        region:
+          factory_class: org.hibernate.cache.jcache.JCacheRegionFactory
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+        trace: on
+      path: /console
+  cache:
+    jcache:
+      provider: org.ehcache.jsr107.EhcacheCachingProvider
+  sql:
+    init:
+      platform: h2
+      mode: embedded
+
+---
+springdoc:
+  packagesToScan: com.peoplespheres
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    csrf:
+      enabled: true
+      use-local-storage: true
+      local-storage-key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmSORO3DjKxIyQXznZD/w/AvLH1X0j7NTjEaJk9DRD3cglXC85bDkTc4ZUCaSUd83RH7EzqKbwSqL7+ZFCAZWJzSNAYgYkfr3GmItvIhxwhzVXYH4qoLs8mYsEwrFPwRrqY2FMW2xpRvugL6Q4X2DyUxvxJEUfqXXk1U/ua4QCUJnwM8jnPbg+c3ld/b2Z7ISb/6xDmvpbQ0d+M8y3e6ApaMMfKoyabRhA+X9b3eyXm2EmPndBS9LC2TrL+8zVE93FKNn4TUVGnimJntrBC3KPV3eI1o5dEx3UzmKefGHXVoZuMIgTDJ+CYvCjRDa9spC0YUuXZ62EXsmHLgo3yCutwIDAQAB"
+---
+# Definition of the log levels for the various part of the application
+logging:
+  level:
+    org:
+      springframework: ERROR
+      hibernate:
+        SQL: ERROR
+        cache: ERROR
+        type.descriptor: TRACE
+    com:
+      peoplespheres: INFO
+  pattern:
+    dateformat: "\"yyyy-MM-dd'THH:mm:ss,SSSXXX\", UTC"
+---
+# PeopleSpheres specific configurations
+peoplespheres:
+  environment: "test"
+  datasource:
+    mapping:
+      url: "jdbc:h2:mem:mapping;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false;CASE_INSENSITIVE_IDENTIFIERS=TRUE;INIT=CREATE SCHEMA IF NOT EXISTS public"
+      user: "testUser"
+      password: "testUserPwd"

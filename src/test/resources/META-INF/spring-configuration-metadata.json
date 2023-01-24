@@ -1,0 +1,133 @@
+{
+  "properties": [
+    {
+      "name": "cors.origins.allowed",
+      "fieldType": "java.lang.String",
+      "description": "A comma separated list of URLs allowed to perform CORS(Cross Origin Resource Sharing)."
+    },
+    {
+      "name": "peoplespheres.environment",
+      "fieldType": "java.lang.String",
+      "description": "The considered target environment where this application will be run onto."
+    },
+    {
+      "name": "peoplespheres.datasource.mapping.url",
+      "fieldType": "java.lang.String",
+      "description": "The target URL for the mapping datasource containing all the mapping of the various workflows."
+    },
+    {
+      "name": "peoplespheres.datasource.mapping.user",
+      "fieldType": "java.lang.String",
+      "description": "The name of the user to use to be able to connect to the mapping datasource."
+    },
+    {
+      "name": "peoplespheres.datasource.mapping.password",
+      "fieldType": "java.lang.String",
+      "description": "The password credential to use to be able to connect to the mapping datasource."
+    },
+    {
+      "name": "peoplespheres.jwt.secret",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres secret to use to manage the JWT JSON Web Token internally."
+    },
+    {
+      "name": "peoplespheres.jwt.issuer-uri",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres URI to use to issue JWT JSON Web Token internally."
+    },
+    {
+      "name": "peoplespheres.jwk-set-uri",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres URI to use to check JWT JSON Web Token internally."
+    },
+    {
+      "name": "APP_ENVIRONMENT",
+      "fieldType": "java.lang.String",
+      "description": "The considered target environment where this application will be run onto."
+    },
+    {
+      "name": "APP_JWT_SECRET",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres secret to use to manage the JWT JSON Web Token internally."
+    },
+    {
+      "name": "APP_JWT_SECRET",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres secret to use to manage the JWT JSON Web Token internally."
+    },
+    {
+      "name": "APP_JWT_ISSUER_URI",
+      "fieldType": "java.lang.String",
+      "description": "The peoplespheres URI to use to issue JWT JSON Web Token internally."
+    },
+    {
+      "name": "SPRING_DB_SECRETS_FILE",
+      "fieldType": "java.lang.String",
+      "description": "The path to the local secret file to be used to connect to the mapping datasource."
+    },
+    {
+      "name": "SPRING_DATASOURCE_URL",
+      "fieldType": "java.lang.String",
+      "description": "The target URL for the mapping datasource containing all the mappings of the various workflows."
+    },
+    {
+      "name": "SPRING_DATASOURCE_DATABASE",
+      "fieldType": "java.lang.String",
+      "description": "The target database name for the mapping datasource containing all the mappings of the various workflows.",
+      "defaultValue": "mapping"
+    },
+    {
+      "name": "SPRING_DATASOURCE_HOSTNAME",
+      "fieldType": "java.lang.String",
+      "description": "The target hostname hosting the mapping datasource containing all the mappings of the various workflows.",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "SPRING_DATASOURCE_PORT",
+      "fieldType": "java.lang.String",
+      "description": "The target port to use for the mapping datasource containing all the mappings of the various workflows.",
+      "defaultValue": "5432"
+    },
+    {
+      "name": "SPRING_DATASOURCE_USERNAME",
+      "fieldType": "java.lang.String",
+      "description": "The name of the user to use to be able to connect to the mapping datasource."
+    },
+    {
+      "name": "SPRING_DATASOURCE_PASSWORD",
+      "fieldType": "java.lang.String",
+      "description": "The password credential to use to be able to connect to the mapping datasource."
+    }
+  ],
+  "hints": [
+    {
+      "name": "peoplespheres.environment",
+      "values": [
+        {
+          "value": "local",
+          "description": "Local environment."
+        },
+        {
+          "value": "test",
+          "description": "Local unit tests environment."
+        },
+        {
+          "value": "dev",
+          "description": "Development test environment."
+        },
+        {
+          "value": "qa",
+          "description": "Qualification and validation environment."
+        },
+        {
+          "value": "ppr",
+          "description": "Pre-production environment."
+        },
+        {
+          "value": "prd",
+          "description": "Production environment."
+        }
+      ]
+    }
+  ]
+}

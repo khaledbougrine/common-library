@@ -1,0 +1,74 @@
+[
+  {
+    "id": 4,
+    "function": "SUBSTRING",
+    "name": "Substring",
+    "paramNumberMax": 1,
+    "paramNumberMin": 2,
+    "isInternal": false
+  },
+  {
+    "id": 3,
+    "function": "RAW_DATA",
+    "name": "Raw data",
+    "paramNumberMax": 0,
+    "paramNumberMin": 0,
+    "isInternal": false
+  },
+  {
+    "id": 6,
+    "function": "FORMAT",
+    "name": "Format",
+    "paramNumberMax": 1,
+    "paramNumberMin": 1,
+    "isInternal": false
+  },
+  {
+    "id": 1,
+    "function": "RAW_GENERATION",
+    "name": "Field creation",
+    "paramNumberMax": 2,
+    "paramNumberMin": 2,
+    "isInternal": false
+  },
+  {
+    "id": 7,
+    "function": "MATCHING_TABLE",
+    "name": "Matching table",
+    "paramNumberMax": 1,
+    "paramNumberMin": 1,
+    "isInternal": false
+  },
+  {
+    "id": 5,
+    "function": "CONCATENATION",
+    "name": "Concatenation",
+    "paramNumberMax": 2,
+    "paramNumberMin": 25,
+    "isInternal": false
+  },
+  {
+    "id": 8,
+    "function": "TRANSTYPING",
+    "name": "Transtyping",
+    "paramNumberMax": 0,
+    "paramNumberMin": 0,
+    "isInternal": true
+  },
+  {
+    "id": 9,
+    "function": "CONSTANT",
+    "name": "Constant",
+    "paramNumberMax": 0,
+    "paramNumberMin": 0,
+    "isInternal": true
+  },
+  {
+    "id": 2,
+    "function": "MATCHING_TABLE_GENERATION",
+    "name": "Field creation with matching",
+    "paramNumberMax": 2,
+    "paramNumberMin": 2,
+    "isInternal": false
+  }
+]

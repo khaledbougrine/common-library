@@ -1,0 +1,9 @@
+ {
+    "id": 123,
+    "fieldAlias": "usr_test",
+    "fieldOptionName": "test",
+    "fieldValue": "fieldValue",
+    "externalValue": "externalValue",
+    "matchingTable": "matchingTable",
+    "isActive": true
+  }

@@ -1,0 +1,8 @@
+{
+  "id": 4,
+  "function": "SUBSTRING",
+  "name": "Substring",
+  "paramNumberMax": 1,
+  "paramNumberMin": 2,
+  "isInternal": false
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "id": 17,
+    "alias": "training",
+    "is_active": true,
+    "name": "training",
+    "created_at": "2022-09-18 16:57:06",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 24,
+    "alias": "onb",
+    "is_active": true,
+    "name": "onb",
+    "created_at": "2022-09-18 16:57:22",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 41,
+    "alias": "com_charte_ethique",
+    "is_active": true,
+    "name": "com_charte_ethique",
+    "created_at": "2022-09-18 16:57:33",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 37,
+    "alias": "com_securite",
+    "is_active": true,
+    "name": "com_securite",
+    "created_at": "2022-09-18 16:57:21",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 27,
+    "alias": "com",
+    "is_active": true,
+    "name": "com",
+    "created_at": "2022-09-18 16:57:27",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 30,
+    "alias": "emp_employeur_identity",
+    "is_active": true,
+    "name": "emp_employeur_identity",
+    "created_at": "2022-09-18 16:57:30",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 11,
+    "alias": "compensation",
+    "is_active": true,
+    "name": "compensation",
+    "created_at": "2022-09-18 16:56:55",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 12,
+    "alias": "settings",
+    "is_active": true,
+    "name": "settings",
+    "created_at": "2022-09-18 16:57:17",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 29,
+    "alias": "emp",
+    "is_active": true,
+    "name": "emp",
+    "created_at": "2022-09-18 16:57:29",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 7,
+    "alias": "leaves_timesheet_expenses",
+    "is_active": true,
+    "name": "leaves_timesheet_expenses",
+    "created_at": "2022-09-18 16:57:00",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 25,
+    "alias": "onb_onboarding_identity",
+    "is_active": true,
+    "name": "onb_onboarding_identity",
+    "created_at": "2022-09-18 16:57:23",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 31,
+    "alias": "etb",
+    "is_active": true,
+    "name": "etb",
+    "created_at": "2022-09-18 16:57:31",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 32,
+    "alias": "etb_etablissement_identity",
+    "is_active": true,
+    "name": "etb_etablissement_identity",
+    "created_at": "2022-09-18 16:57:31",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 9,
+    "alias": "personal_contact",
+    "is_active": true,
+    "name": "personal_contact",
+    "created_at": "2022-09-18 16:57:22",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 28,
+    "alias": "com_communication_identity",
+    "is_active": true,
+    "name": "com_communication_identity",
+    "created_at": "2022-09-18 16:57:28",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 13,
+    "alias": "onboarding",
+    "is_active": true,
+    "name": "onboarding",
+    "created_at": "2022-09-18 16:57:01",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 4,
+    "alias": "employment_contract",
+    "is_active": true,
+    "name": "employment_contract",
+    "created_at": "2022-09-18 16:56:57",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 38,
+    "alias": "com_bleu_libellule",
+    "is_active": true,
+    "name": "com_bleu_libellule",
+    "created_at": "2022-09-18 16:57:24",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 21,
+    "alias": "mdl_identity",
+    "is_active": true,
+    "name": "mdl_identity",
+    "created_at": "2022-09-18 16:57:13",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 35,
+    "alias": "com_notes_de_service",
+    "is_active": true,
+    "name": "com_notes_de_service",
+    "created_at": "2022-09-18 16:57:03",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 20,
+    "alias": "mdl",
+    "is_active": true,
+    "name": "mdl",
+    "created_at": "2022-09-18 16:57:12",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 18,
+    "alias": "poll",
+    "is_active": true,
+    "name": "poll",
+    "created_at": "2022-09-18 16:57:15",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 42,
+    "alias": "com_stockage_pour_comm",
+    "is_active": true,
+    "name": "com_stockage_pour_comm",
+    "created_at": "2022-09-18 16:57:34",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 19,
+    "alias": "usr",
+    "is_active": true,
+    "name": "usr",
+    "created_at": "2022-09-18 16:57:07",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 14,
+    "alias": "performance",
+    "is_active": true,
+    "name": "performance",
+    "created_at": "2022-09-18 16:57:02",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 33,
+    "alias": "usr_demandes_managers",
+    "is_active": true,
+    "name": "usr_demandes_managers",
+    "created_at": "2022-09-18 16:56:54",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 36,
+    "alias": "com_gestion_rh",
+    "is_active": true,
+    "name": "com_gestion_rh",
+    "created_at": "2022-09-18 16:57:20",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 39,
+    "alias": "com_objectif_coiffure",
+    "is_active": true,
+    "name": "com_objectif_coiffure",
+    "created_at": "2022-09-18 16:57:25",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 10,
+    "alias": "relation",
+    "is_active": true,
+    "name": "relation",
+    "created_at": "2022-09-18 16:57:19",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 16,
+    "alias": "cv",
+    "is_active": true,
+    "name": "cv",
+    "created_at": "2022-09-18 16:57:05",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 3,
+    "alias": "contact",
+    "is_active": true,
+    "name": "contact",
+    "created_at": "2022-09-18 16:56:56",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 40,
+    "alias": "com_csp_csp_offices",
+    "is_active": true,
+    "name": "com_csp_csp_offices",
+    "created_at": "2022-09-18 16:57:32",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 6,
+    "alias": "identity",
+    "is_active": true,
+    "name": "identity",
+    "created_at": "2022-09-18 16:57:16",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 34,
+    "alias": "usr_suivi_demande_rh",
+    "is_active": true,
+    "name": "usr_suivi_demande_rh",
+    "created_at": "2022-09-18 16:56:59",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  },
+  {
+    "id": 22,
+    "alias": "usr_structure_organisationnelle",
+    "is_active": true,
+    "name": "usr_structure_organisationnelle",
+    "created_at": "2022-09-18 16:57:18",
+    "updated_at": null,
+    "deleted_at": null,
+    "version": 1
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "endDate": 1664407983,
+  "executionTime": "18:00:00",
+  "frequency": "MONTHLY",
+  "isMaintenance": false,
+  "selectDay": "FRIDAY",
+  "startDate": 1664407983,
+  "clientId": "33333330-3336-3331-2d33-3633312d3336",
+  "flowId": 2,
+  "clientName": "testName",
+  "flowName": "test",
+  "flowStatus": "testStatus",
+  "moduleId": 123,
+  "moduleName": "moduleNameTest"
+}

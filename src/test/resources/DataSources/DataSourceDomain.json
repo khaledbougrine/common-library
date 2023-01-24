@@ -1,0 +1,16 @@
+ {
+    "id": 7,
+    "name": "Valeur prime exceptionnelle",
+    "alias": "usr_bonus",
+    "fieldType": "NUMBER",
+    "position": 3,
+    "categoryAlias": "usr_primes",
+    "defaultValue": null,
+    "isArray": false,
+    "isRequired": false,
+    "parentAlias": null,
+    "parentFieldName": null,
+    "relatedPso": null,
+    "flowId": 4,
+    "clientId": "33333330-3336-3331-2d33-3633312d3336"
+  }

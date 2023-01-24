@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "alias": "usr_test",
+  "isActive": true,
+  "name": null,
+  "createdAt": null,
+  "updatedAt": null,
+  "deletedAt": null,
+  "version": 123
+}

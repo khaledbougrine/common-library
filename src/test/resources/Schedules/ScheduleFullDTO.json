@@ -1,0 +1,52 @@
+[
+  {
+    "startDate": "1664407983",
+    "endDate": "1664407983",
+    "frequency": "MONTHLY",
+    "isMaintenance": false,
+    "selectDay": "FIRST_DAY_OF_MONTH",
+    "executionTime": "08:00:00",
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "flowId": 2
+  },
+  {
+    "endDate": 1664407983,
+    "executionTime": "14:00:00",
+    "frequency": "WEEKLY",
+    "isMaintenance": false,
+    "selectDay": "MONDAY",
+    "startDate": 1664407983,
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "flowId": 2
+  },
+  {
+    "endDate": 1664407983,
+    "executionTime": "09:30:00",
+    "frequency": "DAILY",
+    "isMaintenance": true,
+    "selectDay": "",
+    "startDate": 1664407983,
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "flowId": 2
+  },
+  {
+    "endDate": 1664407983,
+    "executionTime": "18:00:00",
+    "frequency": "MONTHLY",
+    "isMaintenance": false,
+    "selectDay": "FRIDAY",
+    "startDate": 1664407983,
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "flowId": 2
+  },
+  {
+    "endDate": 1664407983,
+    "executionTime": "18:00:00",
+    "frequency": "MONTHLY",
+    "isMaintenance": false,
+    "selectDay": "FRIDAY",
+    "startDate": 1664407983,
+    "clientId": "33333330-3336-3331-2d33-3633312d3336",
+    "flowId": 2
+  }
+]

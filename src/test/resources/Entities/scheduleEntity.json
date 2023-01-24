@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "startDate": "1664407983",
+  "endDate": "1664407983",
+  "frequency": "WEEKLY",
+  "isMaintenance": false,
+  "selectDay": "MONDAY",
+  "executionTime": "08:00:00"
+}

@@ -1,0 +1,926 @@
+[
+  {
+    "id": 11,
+    "flowId": "11",
+    "name": "Legal entity",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "mapping_status": "TO_CONFIRM",
+    "execution_type": "REAL_TIME",
+    "execution_status": "FAILED",
+    "status": "RELEASE",
+    "is_active": true,
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 4,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "4",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 5,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "5",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ],
+    "schedule": {
+      "id": 2,
+      "select_day": "FRIDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "18:00:00",
+      "frequency": "MONTHLY",
+      "isMaintenance": false,
+      "startDate": "2022-09-01 00:00:00.000000"
+    }
+  },
+  {
+    "id": 6,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "6",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 7,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "7",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 1,
+    "is_active": true,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "1",
+    "mapping_status": "CONFIRMED",
+    "name": "Utilisateur",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ],
+    "schedule": {
+      "id": 1,
+      "select_day": "MONDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "14:00:00",
+      "frequency": "WEEKLY",
+      "isMaintenance": false,
+      "startDate": "2022-09-01 00:00:00.000000"
+    }
+  },
+  {
+    "id": 2,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "2",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 19,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "19",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 12,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "12",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 13,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "13",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "schedule": {
+      "id": 4,
+      "select_day": "TUESDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "09:30:00",
+      "frequency": "WEEKLY",
+      "isMaintenance": true,
+      "startDate": "2022-09-01 00:00:00.000000"
+    },
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 14,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "14",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 15,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "15",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 8,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "8",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 9,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "9",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "schedule": {
+      "id": 3,
+      "select_day": "",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "09:30:00",
+      "frequency": "DAILY",
+      "isMaintenance": true,
+      "startDate": "2022-09-01 00:00:00.000000"
+    },
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 10,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "10",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 27,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "27",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 20,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "20",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 21,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "21",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "schedule_id": {
+      "id": 6,
+      "select_day": "WEDNESDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "09:30:00",
+      "frequency": "DAILY",
+      "isMaintenance": true,
+      "startDate": "2022-09-01 00:00:00.000000"
+    },
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 22,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "22",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 23,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "23",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 16,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "16",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 17,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "17",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ],
+    "schedule": {
+      "id": 5,
+      "select_day": "FRIDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "18:00:00",
+      "frequency": "MONTHLY",
+      "isMaintenance": false,
+      "startDate": "2022-09-01 00:00:00.000000"
+    }
+  },
+  {
+    "id": 18,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "18",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 35,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "35",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 28,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "28",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 29,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "29",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "schedule": {
+      "id": 8,
+      "select_day": "THURSDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "14:00:00",
+      "frequency": "WEEKLY",
+      "isMaintenance": false,
+      "startDate": "2022-09-01 00:00:00.000000"
+    },
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 30,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "30",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 31,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "31",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 24,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "24",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 25,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "25",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ],
+    "schedule": {
+      "id": 7,
+      "select_day": "TUESDAY",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "09:30:00",
+      "frequency": "WEEKLY",
+      "isMaintenance": true,
+      "startDate": "2022-09-01 00:00:00.000000"
+    }
+  },
+  {
+    "id": 26,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "26",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 36,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "36",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 37,
+    "is_active": true,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "37",
+    "mapping_status": "CONFIRMED",
+    "name": "Payroll",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "sources": [
+      {
+        "id": 7,
+        "alias": "usr_bonus",
+        "isArray": false,
+        "categoryAlias": "usr_primes",
+        "defaultValue": null,
+        "name": "Valeur prime exceptionnelle",
+        "parentAlias": null,
+        "parentFieldName": null,
+        "position": 3,
+        "relatedPso": null,
+        "isRequired": false,
+        "fieldType": "DOUBLE",
+        "dataflow_id": 37,
+        "updated_at": null,
+        "deleted_at": null,
+        "version": 1,
+        "created_at": "2022-09-18 16:54:34",
+        "clientId": null
+      }
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ],
+    "schedule": {
+      "id": 10,
+      "select_day": "FIRST_DAY_OF_MONTH",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "08:00:00",
+      "frequency": "MONTHLY",
+      "isMaintenance": false,
+      "startDate": "2022-09-01 00:00:00.000000"
+    }
+  },
+  {
+    "id": 32,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": null,
+    "flowId": "32",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "DRAFT",
+    "fieldType": "IN",
+    "flow_version": "V1.2",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 33,
+    "is_active": false,
+    "execution_status": "SUCCESS",
+    "execution_type": "SCHEDULED",
+    "flowId": "33",
+    "mapping_status": "CONFIRMED",
+    "name": "User",
+    "status": "RELEASE",
+    "fieldType": "OUT",
+    "flow_version": "V1.1",
+    "schedule": {
+      "id": 9,
+      "select_day": "",
+      "endDate": "2026-12-31 23:59:59.000000",
+      "executionTime": "09:30:00",
+      "frequency": "DAILY",
+      "isMaintenance": true,
+      "startDate": "2022-09-01 00:00:00.000000"
+    },
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 34,
+    "is_active": true,
+    "execution_status": "RUNNING",
+    "execution_type": "REAL_TIME",
+    "flowId": "34",
+    "mapping_status": "CONFIRMED",
+    "name": "Contracts",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  },
+  {
+    "id": 3,
+    "is_active": true,
+    "execution_status": "FAILED",
+    "execution_type": "REAL_TIME",
+    "flowId": "3",
+    "mapping_status": "TO_CONFIRM",
+    "name": "Legal entity",
+    "status": "RELEASE",
+    "fieldType": "IN",
+    "flow_version": "V1.1",
+    "sources": [
+    ],
+    "targets": [
+    ],
+    "transformations": [
+    ],
+    "target_populations": [
+      "Groupe Paris",
+      "Groupe Montpellier"
+    ]
+  }
+]

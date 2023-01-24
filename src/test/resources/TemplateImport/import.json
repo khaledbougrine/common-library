@@ -1,0 +1,92 @@
+{
+  "connectors": [
+    {
+      "id": null,
+      "name": "TEST",
+      "type": "OUT",
+      "providerId": "1",
+      "isActive" : true,
+      "flows": [
+        {
+          "id": null,
+          "psoType": "TEST FLOW",
+          "name": "TEST FLOW",
+          "type": "OUT",
+          "flowVersion": "1.2",
+          "mappingStatus": "CONFIRMED",
+          "executionType": "REAL_TIME",
+          "executionStatus": "FAILED",
+          "status": "DRAFT",
+          "isActive": false,
+          "isVisualised": false,
+          "schedules": [
+            {
+              "selectDay": "MONDAY",
+              "endDate": "2022-12-31T10:15:30Z",
+              "executionTime": "10:15:30",
+              "frequency": "MONTHLY",
+              "startDate": "2022-01-01T00:00:00Z",
+              "isMaintenance": false
+            }
+          ],
+          "targetPopulations": [
+            "POPULATION 1", "POPULATION 2"
+          ],
+          "mappings": [
+            {
+              "flowId": null,
+              "position": 1,
+              "dataSource": {
+                "name": "SOURCE 1",
+                "alias": "TST",
+                "fieldType": "STRING",
+                "categoryAlias": "",
+                "defaultValue": "TEST",
+                "isArray": false,
+                "parentAlias": "",
+                "parentFieldName": "",
+                "isRequired": false,
+                "psoTypeAlias": "USR",
+                "relatedPso": "USR",
+                "clientId": "33333330-3336-3331-2d33-3633312d3336",
+                "technicalId": "testtest"
+              },
+              "transformations": [
+                {
+                  "id": null,
+                  "name": "Test",
+                  "parameters": "",
+                  "position": 1,
+                  "moduleId": 1,
+                  "clientId": "33333330-3336-3331-2d33-3633312d3336",
+                  "transformationRule": {
+                    "id": null,
+                    "name": "NOM",
+                    "function": "RAW_DATA",
+                    "paramNumberMin": 0,
+                    "paramNumberMax": 2,
+                    "isInternal": false
+                  }
+                }
+              ],
+              "dataTarget": {
+                "name": "NOM",
+                "alias": "NOM",
+                "fieldType": "STRING",
+                "categoryAlias": "",
+                "defaultValue": "",
+                "isArray": false,
+                "parentAlias": "",
+                "parentFieldName": "",
+                "isRequired": false,
+                "relatedPso": "",
+                "clientId": "33333330-3336-3331-2d33-3633312d3336",
+                "technicalId": "4fdefebc-da77-47d4-99f0-54a9352dc02d"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
